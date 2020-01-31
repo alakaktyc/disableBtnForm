@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<button id="req">вызов формы</button>
+
+<form class="reg-form" name="registration" method="post">
+
+    <fieldset class="reg-form__head">
+        <h2 class="reg-form__title">Регистрация</h2>
+        <p class="reg-form__text">Введите логи и пароль</p>
+        <label class="reg-form__text">
+            Логин
+            <input id="reg-login" class="reg-form__input" type="text" name="login">
+        </label>
+        <label class="reg-form__text">
+            Пароль
+            <input id="reg-password" class="reg-form__input" type="password" name="password">
+        </label>
+        <label class="reg-form__text">
+            Повторите пароль
+            <input id="reg-password-repeat" class="reg-form__input" type="password" name="rep-password">
+        </label>
+        <button class=" btn btn--disabled btn--next" type="button" disabled>Далее</button>
+    </fieldset>
+
+    <fieldset class="reg-form__client-info">
+        <h2 class="reg-form__title">Регистрация</h2>
+        <p class="reg-form__text">Заполните информацию о себе</p>
+        <label class="reg-form__text">
+            Имя
+            <input class="reg-form__input" type="text" name="name" id="reg-name">
+        </label>
+        <label class="reg-form__text">
+            Фамилия
+            <input class="reg-form__input" type="text" name="surname">
+        </label>
+        <label class="reg-form__text">
+            Страна
+            <input class="reg-form__input" type="text" name="country">
+        </label>
+        <label class="reg-form__text">
+            Город
+            <input class="reg-form__input" type="text" name="city">
+        </label>
+        <button class="btn btn--next" type="button" disabled>Далее</button>
+    </fieldset>
+
+    <fieldset class="reg-form__client-info">
+        <h2 class="reg-form__title">Регистрация</h2>
+        <p class="reg-form__text">Заполните информацию о себе</p>
+        <label class="reg-form__text">
+            Имя
+            <input class="reg-form__input" type="text" name="name">
+        </label>
+        <label class="reg-form__text">
+            Фамилия
+            <input class="reg-form__input" type="text" name="surname">
+        </label>
+        <label class="reg-form__text">
+            Страна
+            <input class="reg-form__input" type="text" name="country">
+        </label>
+        <label class="reg-form__text">
+            Город
+            <input class="reg-form__input" type="text" name="city">
+        </label>
+        <button class="btn btn--next" type="button" disabled>Далее</button>
+    </fieldset>
+
+    <fieldset class="reg-form__client-info">
+        <h2 class="reg-form__title">Регистрация</h2>
+        <p class="reg-form__text">Заполните информацию о себе</p>
+        <label class="reg-form__text">
+            Имя
+            <input class="reg-form__input" type="text" name="name">
+        </label>
+        <label class="reg-form__text">
+            Фамилия
+            <input class="reg-form__input" type="text" name="surname">
+        </label>
+        <label class="reg-form__text">
+            Страна
+            <input class="reg-form__input" type="text" name="country">
+        </label>
+        <label class="reg-form__text">
+            Город
+            <input class="reg-form__input" type="text" name="city">
+        </label>
+        <button class="btn btn--next" type="button" disabled>Далее</button>
+    </fieldset>
+
+    <fieldset class="reg-form__client-info">
+        <h2 class="reg-form__title">Регистрация</h2>
+        <p class="reg-form__text">Заполните информацию о себе</p>
+        <label class="reg-form__text">
+            Имя
+            <input class="reg-form__input" type="text" name="name">
+        </label>
+        <label class="reg-form__text">
+            Фамилия
+            <input class="reg-form__input" type="text" name="surname">
+        </label>
+        <label class="reg-form__text">
+            Страна
+            <input class="reg-form__input" type="text" name="country">
+        </label>
+        <label class="reg-form__text">
+            Город
+            <input class="reg-form__input" type="text" name="city">
+        </label>
+        <button class="btn btn--next" type="button" disabled>Далее</button>
+    </fieldset>
+
+    <fieldset class="reg-form__client-info">
+        <h2 class="reg-form__title">Регистрация</h2>
+        <p class="reg-form__text">Заполните информацию о себе</p>
+        <label class="reg-form__text">
+            Имя
+            <input class="reg-form__input" type="text" name="name">
+        </label>
+        <label class="reg-form__text">
+            Фамилия
+            <input class="reg-form__input" type="text" name="surname">
+        </label>
+        <label class="reg-form__text">
+            Страна
+            <input class="reg-form__input" type="text" name="country">
+        </label>
+        <label class="reg-form__text">
+            Город
+            <input class="reg-form__input" type="text" name="city">
+        </label>
+        <button class="btn btn--next" type="button" disabled>Далее</button>
+    </fieldset>
+
+
+    <fieldset class="reg-form__client-other">
+        <h2 class="reg-form__title">Регистрация</h2>
+        <p class="reg-form__text">Заполните информацию о себе</p>
+        <label class="reg-form__text">Коротко о себе<textarea class="reg-form__about" name="about"></textarea></label>
+        <div class="check">
+            <label class="reg-form__text"><input class="reg-form__check" type="checkbox" name="tour"><span></span>Пляжный отдых</label>
+            <label class="reg-form__text"><input class="reg-form__check" type="checkbox" name="tour"><span></span>Экскурсионный отдых</label>
+            <label class="reg-form__text"><input class="reg-form__check" type="checkbox" name="tour"><span></span>Экзотические туры</label>
+            <label class="reg-form__text"><input class="reg-form__check" type="checkbox" name="tour"><span></span>Круизы</label>
+            <label class="reg-form__text"><input class="reg-form__check" type="checkbox" name="tour"><span></span>Горнолыжный отдых</label>
+            <label class="reg-form__text"><input class="reg-form__check" type="checkbox" name="tour"><span></span>Лечебный</label>
+            <label class="reg-form__text"><input class="reg-form__check" type="checkbox" name="tour"><span></span>Индивидуальный туризм</label>
+            <label class="reg-form__text"><input class="reg-form__check" type="checkbox" name="tour"><span></span>Экстримальный отдых</label>
+        </div>
+        <div class="reg-form__inner">
+            <label class="reg-form__text"><input class="reg-form__check" type="checkbox" name="agree" checked><span></span> Согласие на обработку персональных данных</label>
+            <a class="reg-form__link" href="#">Политика конфиденциальности</a>
+            <button class="btn btn--finish" name="submit" type="submit">Зарегистрироваться</button>
+        </div>
+    </fieldset>
+
+</form>
+
+
+<script src="main.js"></script>
+</body>
+</html>

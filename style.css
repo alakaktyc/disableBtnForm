@@ -1,0 +1,11 @@
+.reg-form{
+    display: none;
+}
+
+fieldset{
+    display: none;
+}
+
+.active{
+    display: block;
+}
